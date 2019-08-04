@@ -91,3 +91,22 @@ color:black !important;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
 }
+
+.card-img-top{
+    border-radius: 1px;
+}
+
+.aboutTitle{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.aboutSubTitle{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.aboutText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
