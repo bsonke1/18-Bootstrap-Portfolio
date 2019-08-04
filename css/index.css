@@ -59,7 +59,35 @@ color:black !important;
 .btn{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    background-color: goldenrod;
-    border-color: goldenrod;
+    background-color: #EFE9A4;
+    border-color: #EFE9A4;
+    color:black;
     
+}
+
+.cardContent{
+    text-align: center !important;
+}
+
+.workTitle{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.workText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.quoteText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.blockquote-footer{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
 }
