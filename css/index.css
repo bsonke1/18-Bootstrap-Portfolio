@@ -1,6 +1,7 @@
-.bg-light{
-    background-color:white !important;
+.navbar-brand{
+    margin-left: 2rem;
 }
+
 
 .justify-content-end {
   -ms-flex-pack: end!important;
@@ -12,12 +13,25 @@
 
 .nav-item{
     margin:15px;
+    
 }
 
 
-ul{
+.navbar-nav{
     font-family: Karla;
+    
 }
-.navbar-brand{
-  margin-left: 2rem;
+
+.nav-link{
+color:black !important;
 }
+
+.active{
+    font-style: strong !important;
+    
+}
+
+#mainactive{
+    color: goldenrod !important;
+}
+
