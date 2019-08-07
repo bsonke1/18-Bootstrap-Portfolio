@@ -39,6 +39,9 @@ color:black !important;
 
 .jumbotron{
     text-align: center;
+    background-image: url("../images/background.png");
+    opacity: 25%;
+    min-height: 450px;
 }
 
 .display-4{
@@ -65,8 +68,32 @@ color:black !important;
     
 }
 
+.workHeader{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.card{
+    min-width: 360px !important;
+}
+
 .cardContent{
     text-align: center !important;
+}
+
+.workCard {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 550px;
 }
 
 .workTitle{
@@ -79,21 +106,46 @@ color:black !important;
     font-weight: 300;
 }
 
+.energyScreen{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 
+.logoScreen{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logoBody{
+    padding-top: 50px;
+}
 
 
 .quoteText{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    color: white;
+}
+
+.blockquote{
+    background-color: black;
 }
 
 .blockquote-footer{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    color: lightgray;
 }
 
 .card-img-top{
     border-radius: 1px;
+}
+
+.headshot{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 
 .aboutTitle{
@@ -109,4 +161,81 @@ color:black !important;
 .aboutText{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+}
+
+.about{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 75% !important;
+}
+
+.workContainer1{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.workContainer2{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (max-width:600px){
+    .display-4{
+        font-size: 30px;
+    }
+
+    .lead{
+        font-size: 14px;
+    }
+
+    .pastProjects{
+        font-size: 14px;
+    }
+
+    .btn-primary{
+        font-size: 14px;
+    }
+
+    .jumbotron{
+        height: 200px;
+        padding-top: 100px;
+        padding-bottom: auto;
+    }
+
+    .workContainer1{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .workContainer2{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .workTitle{
+        font-size: 20px;
+    }
+
+    .workText{
+        font-size:14px;
+    }
+
+    .headshot{
+        width: 200px;
+    }
+
+    .quoteText{
+        font-size: 14px;
+    }
+
+    .blockquote-footer{
+        font-size: 14px;
+    }
 }
